@@ -1,0 +1,69 @@
+.body{
+    background-color: black;
+}
+section{
+  border-top: 5%;
+}
+#container{
+  font-family: 'Bowlby One SC', cursive;
+  display: 100vh;
+  position: relative;
+  background-color: black;
+}
+#container .menu .links ul li a{
+  color: #E2E2E2;
+}
+#container nav img{
+  width:10%;
+  margin-right: 3%;
+  border:solid;
+  border-color: white;
+  border-radius: 10px;
+}
+#container nav .navbar-toggler{
+  background-color: #fff;
+}
+.found{
+  height: 100vh;
+  background:   url('img/fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Bowlby One SC', cursive;
+  text-align: center;
+  margin-bottom: 5%;
+}
+/* letra de la imagen principal*/
+.letra-centro{
+  color: #FFF;
+  position:relative;
+  padding-top: 25%;
+  font-size: 3em;
+  text-transform: capitalize;
+}
+.letra-pie{
+  color: #fff;
+}
+.colour{
+  background-color: rgba(0, 0, 0, 0.6);
+
+}
+.top-nav-collapse{
+  background: rgba(0, 0, 0, 0.9);
+}
+hr {
+  background-color:  #fff;
+  height: 7px;
+  width: 90%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+.sec-noticias{
+  color: white;
+}
+.card{
+  background-color: #0d0d0d !important;
+}

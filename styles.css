@@ -70,7 +70,7 @@ section{
   background: rgba(0, 0, 0, 0.9);
 }
 
-/* Color que indica cambio de seccion */
+/* Estilo del hr que indica cambio de seccion */
 hr {
   background-color:  #fff;
   height: 7px;

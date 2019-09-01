@@ -116,7 +116,6 @@ hr {
 .card .card-body .card-text{
   color: black!important;
   padding-top: 1em;
-  font-size: .6rem !important;
 }
 
 .card:hover{
@@ -140,4 +139,17 @@ hr {
 .container-miniGame{
 	text-align: center;
 
+}
+@media only screen and (max-width: 768px) {
+  .card-text{
+    font-size: 1em!important;
+  }
+	#container nav img{
+	  width:10%;
+	  margin-right: 2%;
+		height: 3.5em;
+	}
+	.nav-item{
+		font-size: 2.8em;
+	}
 }

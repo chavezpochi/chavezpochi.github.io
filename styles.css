@@ -153,6 +153,19 @@ hr {
 		font-size: 4em;
 	}
 	.navbar-toggler{
-		
+		height: 6em;
+		width: 13%;
+	}
+	.section-news{
+		font-size: 5em;
+	}
+	.btn{
+		font-size: 3em!important;
+		width: 40%;
+	}
+	.ver-mas{
+		border: solid;
+		width: 100%;
+		font-size: 3em!important;
 	}
 }

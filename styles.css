@@ -1,6 +1,10 @@
+
+html {
+	scroll-behavior: smooth;
+}
 /* Color del body de la pagina */
 body{
-    background-color: black;
+    background-color: white;
 }
 
 /* Estructura para sections */
@@ -11,9 +15,8 @@ section{
 /* Estructura del contenedor de la pagina */
 #container{
   font-family: 'Bowlby One SC', cursive;
-  display: 100vh;
   position: relative;
-  background-color: black;
+  background-color: ##e0e0e0;
 }
 
 /* Definir color de las letras del menu */
@@ -23,11 +26,9 @@ section{
 
 /* Estructura de la imagen del menu */
 #container nav img{
-  width:10%;
-  margin-right: 3%;
-  border:solid;
-  border-color: white;
-  border-radius: 10px;
+  width:6%;
+  margin-right: 2%;
+	height: 3.5em;
 }
 
 /* Color del boton para mostrar y esconder menu */
@@ -35,8 +36,16 @@ section{
   background-color: #fff;
 }
 
-/* Estructura del home/portada de la pagina */
-.found{
+.active{
+	background-color: black!important;
+}
+
+.page-container{
+	padding: 0!important;
+}
+
+.background{
+	justify-content: center;
   height: 100vh;
   background:   url('img/fondo.jpg');
   background-repeat: no-repeat;
@@ -46,18 +55,26 @@ section{
   margin-bottom: 5%;
 }
 
-/* Letra de la portada/home de la pagina */
-.letra-centro{
-  color: #FFF;
-  position:relative;
-  padding-top: 25%;
-  font-size: 3em;
-  text-transform: capitalize;
+/* imagen de la portada */
+.background img{
+
+	width: 20%;
+	position:relative;
+  padding-top: 14%;
 }
 
-/* Letra del pie de la portada */
+.container-news{
+  /*background: url('img/noticias2.jpg');*/
+  background-repeat: no-repeat;
+  background-size:cover;
+  font-family: 'Bowlby One SC', cursive;
+  text-align: center;
+  margin-bottom: 5%;
+
+}
+/* letra de la imagen principal*/
 .letra-pie{
-  color: #fff;
+  color: white;
 }
 
 /* Color del menu */
@@ -67,28 +84,63 @@ section{
 
 /* Color del menu cuando hace animacion */
 .top-nav-collapse{
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(156, 156, 156, 0.8);
 }
 
 /* Estilo del hr que indica cambio de seccion */
 hr {
-  background-color:  #fff;
-  height: 7px;
+  background-color:  black;
   width: 90%;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
 }
 
 /* Color encabezado noticias */
-.sec-noticias{
-  color: white;
+.section-news{
+  color: black;
+	margin-bottom: 4%;
 }
 
 /* Color de los cards de noticia */
 .card{
-  background-color: #0d0d0d !important;
+  background-color: white !important;
+  border-radius: 10px!important;
+}
+
+.card-img-top{
+  width: 90%!important;
+}
+
+.card .card-body .card-text{
+  color: black!important;
+  padding-top: 1em;
+  font-size: .6rem !important;
+}
+
+.card:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+}
+
+.hidden-news{
+  margin: 0;
+  padding: 0!important;
+  height: auto;
+}
+.btn{
+  background-color: white!important;
+	border-color: black !important;
+	border: solid!important;
+  color: black!important;
+}
+/*carrusel*/
+.container-miniGame{
+	text-align: center;
+
+}
+.container-miniGame .carousel{
+	width: 50%;
 }

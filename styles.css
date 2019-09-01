@@ -1,25 +1,37 @@
+
 html {
 	scroll-behavior: smooth;
 }
+/* Color del body de la pagina */
 body{
     background-color: white;
 }
+
+/* Estructura para sections */
 section{
   border-top: 5%;
 }
+
+/* Estructura del contenedor de la pagina */
 #container{
   font-family: 'Bowlby One SC', cursive;
   position: relative;
   background-color: ##e0e0e0;
 }
+
+/* Definir color de las letras del menu */
 #container .menu .links ul li a{
   color: #E2E2E2;
 }
+
+/* Estructura de la imagen del menu */
 #container nav img{
   width:6%;
   margin-right: 2%;
 	height: 3.5em;
 }
+
+/* Color del boton para mostrar y esconder menu */
 #container nav .navbar-toggler{
   background-color: #fff;
 }
@@ -42,6 +54,8 @@ section{
   text-align: center;
   margin-bottom: 5%;
 }
+
+/* imagen de la portada */
 .background img{
 
 	width: 20%;
@@ -62,13 +76,18 @@ section{
 .letra-pie{
   color: white;
 }
+
+/* Color del menu */
 .colour{
   background-color: rgba(0, 0, 0, 0.6);
-
 }
+
+/* Color del menu cuando hace animacion */
 .top-nav-collapse{
   background: rgba(156, 156, 156, 0.8);
 }
+
+/* Estilo del hr que indica cambio de seccion */
 hr {
   background-color:  black;
   width: 90%;
@@ -77,10 +96,14 @@ hr {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Color encabezado noticias */
 .section-news{
   color: black;
 	margin-bottom: 4%;
 }
+
+/* Color de los cards de noticia */
 .card{
   background-color: white !important;
   border-radius: 10px!important;

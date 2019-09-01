@@ -145,26 +145,26 @@ hr {
     font-size:  2.5em!important;
   }
 	#container nav img{
-	  width:20%;
-	  margin-right: 2%;
-		height: 10em;
+	  width:20%!important;
+	  margin-right: 2%!important;
+		height: 10em!important;
 	}
 	.nav-item{
-		font-size: 4em;
+		font-size: 4em!important;
 	}
 	.navbar-toggler{
-		height: 6em;
-		width: 13%;
+		height: 6em!important;
+		width: 13%!important;
 	}
 	.section-news{
-		font-size: 5em;
+		font-size: 5em!important;
 	}
 	.btn{
 		font-size: 3em!important;
-		width: 40%;
+		width: 40%!important;
 	}
 	.ver-mas{
-		border: solid;
+		border: solid!important;
 		width: 100%;
 		font-size: 3em!important;
 	}

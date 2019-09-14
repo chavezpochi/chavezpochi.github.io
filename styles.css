@@ -142,26 +142,27 @@ hr {
 }
 @media screen and (max-device-width: 950px) {
 	.background img{
-
 		width: 20%;
 		position:relative;
 	  padding-top: 50%;
 	}
 	.menu{
-		height: 5em;
+		height: 6em!important;
 	}
   .card-text{
     font-size:  2.5em!important;
   }
 	#container nav img{
-	  width:auto;
+	  width:15%;
+		height: 100%;
 	  margin-right: 2%;
 	}
 	.nav-item{
 		font-size: 4em;
 	}
 	.navbar-toggler{
-		width: auto;
+		width: 15%;
+		height: 100%;
 	}
 	.section-news{
 		font-size: 5em;

@@ -30,13 +30,20 @@ section{
   margin-right: 2%;
 	height: 3.5em;
 }
-
+.ancla{
+  text-decoration: none;
+  color:rgba(#141b41, 0);
+	display: none;
+}
 /* Color del boton para mostrar y esconder menu */
 #container nav .navbar-toggler{
   background-color: #fff;
 }
 
-.active{
+li.active{
+	background-color: black!important;
+}
+.carousel-game .active{
 	background-color: black!important;
 }
 
@@ -101,6 +108,7 @@ hr {
 .section-news{
   color: black;
 	margin-bottom: 4%;
+	font-size: 2.5em;
 }
 
 /* Color de los cards de noticia */
@@ -116,12 +124,14 @@ hr {
 .card .card-body .card-text{
   color: black!important;
   padding-top: 1em;
+	height: 11em;
 }
 
 .card:hover{
-    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
-    box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+	-ms-transform: scale(1.2); /* IE 9 */
+	-webkit-transform: scale(1.2); /* Safari 3-8 */
+	transform: scale(1.2);
+	z-index: 1;
 }
 
 .hidden-news{
@@ -135,11 +145,69 @@ hr {
 	border: solid!important;
   color: black!important;
 }
-/*carrusel*/
-.container-miniGame{
+/*contenedor de 100vh*/
+.container-100vh{
 	text-align: center;
-
+	height: 100vh;
 }
+/*Imagen juego */
+.game{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  opacity: 0.2;
+  }
+	/*Texto de imagen*/
+	.game-text{
+	  color: #fff;
+	  border-radius: 10px;
+	  text-align: center;
+	}
+	/*Menu Esports*/
+	.nav-link{
+		color: black;
+	}
+	.esports .nav .active{
+		color: black!important;
+		background-color: rgb(255, 255, 255)!important;
+		border-color: black black white black!important;
+	}
+	#Tab-Esports{
+		justify-content: center;
+		border-bottom: 1px solid;
+	}
+	/*Secciones Esports*/
+	.section-esports{
+	  color: black;
+		margin-bottom: 4%;
+		font-size: 3em;
+		padding-top: 2%;
+	}
+	.trailer{
+		border: 5px black solid;
+		padding: 1px!important;
+		border-radius: 10px;
+	}
+	.img-esports{
+		border: 4px black solid;
+		padding: 0px!important;
+		border-radius: 10px;
+		opacity: 0.9;
+	}
+	.container-imgGame{
+  position: relative;
+  text-align: center;
+  color: white;
+	}
+	.centered-text {
+	color: white;
+  position: absolute;
+  top: 78%;
+  left: 50%;
+	width: 90%;
+	background: rgba(0, 0, 0, 0.8);
+  transform: translate(-50%, -50%);
+	}
 @media screen and (max-device-width: 980px)
  {
 	.background img{

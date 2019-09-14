@@ -35,3 +35,45 @@ $(document).ready(function() {
         clickedItem.addClass( "active" );
     });
 });
+/* FUNCIONES Y VARIABLES PARA MODAL */
+var modal = document.getElementById("exampleModalCenter");
+var span = document.getElementsByClassName("close")[0];
+
+// Cuando el usuario hace click en <span> (x), cierra el modal
+span.onclick = function() {
+  modal.style.display = "none";
+  cerrar();
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+    cerrar();
+  }
+}
+function jugar(juego){
+    var iframe = crearJuego(juego);
+    var padre = document.getElementById("game_drop");
+    document.getElementById("modal-body").appendChild(iframe);
+}
+
+function cerrar(){
+    var iframe = document.getElementById("game_drop");
+    var padre = iframe.parentNode;
+    padre.removeChild(iframe);
+}
+
+function crearJuego(juego){
+    console.log("entro");
+    var iframe = document.createElement("iframe");
+    iframe.setAttribute('id', 'game_drop');
+    iframe.setAttribute('src', juego);
+    iframe.setAttribute('scrolling', 'no');
+    iframe.style.width = "100%";
+    iframe.style.height = "20em";
+    iframe.style.border = "0";
+    iframe.style.overflow = "hidden";
+    return iframe;
+}
+
+/* FIN FUNCIONES Y VARIABLES PARA MODAL */

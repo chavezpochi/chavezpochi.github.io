@@ -140,7 +140,7 @@ hr {
 	text-align: center;
 
 }
-@media screen and (max-device-width: 1980px) and (max-device-height: 1080px)
+@media screen and (max-device-width: 980px)
  {
 	.background img{
 		width: 20%;

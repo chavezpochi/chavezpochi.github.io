@@ -1,3 +1,4 @@
+
 // Funcion que permite cambiar entre ver mas o ver menos
 function change( btn )
 {
@@ -17,11 +18,10 @@ $(document).ready(function(){
                 marginTop: "-=1%",
             },200);
         },
-
-        // Movimiento cuando mouse ya no esta encima
-        function(){
-            $(this).animate({
-                marginTop: "0%"
+// Movimiento cuando mouse ya no esta encima
+function(){
+  $(this).animate({
+    marginTop: "0%"
             },200);
         }
     );
@@ -48,6 +48,7 @@ span.onclick = function() {
   cerrar();
 }
 
+
 // Funcion que permite que cerrar el modal
 window.onclick = function(event) {
   if (event.target == modal) {
@@ -70,6 +71,7 @@ function cerrar(){
     padre.removeChild(iframe);
 }
 
+
 // Funcion que permite crear el iframe del juego
 function crearJuego(juego){
     console.log("entro");
@@ -83,3 +85,4 @@ function crearJuego(juego){
     iframe.style.overflow = "hidden";
     return iframe;
 }
+

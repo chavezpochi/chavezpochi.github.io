@@ -1,3 +1,4 @@
+
 /* Propiedades definidas que permite que el scroll sea mas suave cuando se hace un salto de pagina */
 html {
 	scroll-behavior: smooth !important;
@@ -30,8 +31,12 @@ section{
   	width:6%;
   	margin-right: 2%;
 	height: 3.5em;
-}
 
+.ancla{
+  text-decoration: none;
+  color:rgba(#141b41, 0);
+	display: none;
+}
 /* Color del boton para mostrar y esconder menu */
 #container nav .navbar-toggler{
   	background-color: #fff;
@@ -93,6 +98,7 @@ li.active{
 /* Color del menu cuando hace animacion */
 .top-nav-collapse{
   	background: rgba(156, 156, 156, 0.8);
+
 }
 
 /* Estilo del hr que indica cambio de seccion */
@@ -107,7 +113,7 @@ hr {
 
 /* Color encabezado noticias */
 .section-news{
-  	color: black;
+ 	color: black;
 	margin-bottom: 4%;
 	font-size: 2.5em;
 }
@@ -213,6 +219,7 @@ hr {
 	padding: 0px!important;
 	border-radius: 10px;
 	opacity: 0.9;
+
 }
 
 /* Propiedades definidas sobre el contenedor de la imagen del juego */

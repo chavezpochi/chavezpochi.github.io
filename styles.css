@@ -154,13 +154,14 @@ hr {
   width: 100%;
   height: 100%;
   background-size: cover;
-  opacity: 0.2;
+  opacity: 0.65;
   }
 	/*Texto de imagen*/
 	.game-text{
 	  color: #fff;
 	  border-radius: 10px;
 	  text-align: center;
+		background: rgba(0, 0, 0, 0.85);
 	}
 	/*Menu Esports*/
 	.nav-link{
@@ -176,9 +177,12 @@ hr {
 		border-bottom: 1px solid;
 	}
 	/*Secciones Esports*/
+	#carousel-Noticias-esports{
+		height: 13em!important;
+	}
 	.section-esports{
 	  color: black;
-		margin-bottom: 4%;
+		margin-bottom: 1.5%;
 		font-size: 3em;
 		padding-top: 2%;
 	}
@@ -188,6 +192,7 @@ hr {
 		border-radius: 10px;
 	}
 	.img-esports{
+		height: 29em;
 		border: 4px black solid;
 		padding: 0px!important;
 		border-radius: 10px;
@@ -201,11 +206,28 @@ hr {
 	.centered-text {
 	color: white;
   position: absolute;
-  top: 78%;
+  top: 75%;
   left: 50%;
 	width: 90%;
 	background: rgba(0, 0, 0, 0.8);
   transform: translate(-50%, -50%);
+	}
+	.carousel-esports .control{
+		background-color: black;
+		height: 20%;
+		top: 25%;
+		width: 5%;
+	}
+	.img-fluid{
+		border-radius: 10px;
+		border: solid;
+	}
+	.img-fluid:hover{
+		opacity: 0.5;
+	}
+	.text-new-esports{
+		font-size: 80%;
+		padding-right: 2px;
 	}
 @media screen and (max-device-width: 980px)
  {

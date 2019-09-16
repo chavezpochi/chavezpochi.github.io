@@ -177,7 +177,7 @@ hr {
 		border-bottom: 1px solid;
 	}
 	/*Secciones Esports*/
-	#carousel-Noticias-esports{
+	.carousel-Noticias-esports{
 		height: 13em!important;
 	}
 	.section-esports{

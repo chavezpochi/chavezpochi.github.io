@@ -1,6 +1,8 @@
+/* Permite que al  hacer saltos de pagina sea mas suave y no tan brusco */
 html {
 	scroll-behavior: smooth !important;
 }
+
 /* Color del body de la pagina */
 body{
     background-color: white;
@@ -25,13 +27,15 @@ section{
 
 /* Estructura de la imagen del menu */
 #container nav img{
-  width:6%;
-  margin-right: 2%;
+  	width:6%;
+  	margin-right: 2%;
 	height: 3.5em;
 }
+
+/* Propiedades definidas sobre el ancla */
 .ancla{
-  text-decoration: none;
-  color:rgba(#141b41, 0);
+  	text-decoration: none;
+  	color:rgba(#141b41, 0);
 	display: none;
 }
 /* Color del boton para mostrar y esconder menu */
@@ -39,58 +43,62 @@ section{
   background-color: #fff;
 }
 
+/* Propiedades definidas sobre la opcion del menu cuando es seleccionada */
 li.active{
 	background-color: black!important;
 }
+
+/* Propiedades definidas sobre el carrusel */
 .carousel-game .active{
 	background-color: black!important;
 }
 
+/* Propiedades definidas sobre el contenedor de la pagina */
 .page-container{
 	padding: 0!important;
 }
 
+/* Propiedades definidas sobre el fondo del inicio de la pagina */
 .background{
 	justify-content: center;
-  height: 100vh;
-  background:   url('img/fondo.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: 'Bowlby One SC', cursive;
-  text-align: center;
-  margin-bottom: 5%;
+  	height: 100vh;
+  	background:   url('img/fondo.jpg');
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	font-family: 'Bowlby One SC', cursive;
+  	text-align: center;
+  	margin-bottom: 5%;
 }
 
-/* imagen de la portada */
+/* Propiedades definidas sobre la imagen de la portada */
 .background img{
-
 	width: 20%;
 	position:relative;
-  padding-top: 14%;
+  	padding-top: 14%;
 }
 
+/* Propiedades definidas sobre el contenedor de las noticias */
 .container-news{
-  /*background: url('img/noticias2.jpg');*/
-  background-repeat: no-repeat;
-  background-size:cover;
-  font-family: 'Bowlby One SC', cursive;
-  text-align: center;
-  margin-bottom: 5%;
-
+  	background-repeat: no-repeat;
+  	background-size:cover;
+  	font-family: 'Bowlby One SC', cursive;
+  	text-align: center;
+  	margin-bottom: 5%;
 }
-/* letra de la imagen principal*/
+
+/* Propiedades definidas sobre la letra de la imagen principal */
 .letra-pie{
-  color: white;
+  	color: white;
 }
 
-/* Color del menu */
+/* Propiedades definidas sobre el color del menu */
 .colour{
-  background-color: rgba(0, 0, 0, 0.6);
+  	background-color: rgba(0, 0, 0, 0.6);
 }
 
 /* Color del menu cuando hace animacion */
 .top-nav-collapse{
-  background: rgba(156, 156, 156, 0.8);
+  	background: rgba(156, 156, 156, 0.8);
 }
 
 /* Estilo del hr que indica cambio de seccion */
@@ -116,16 +124,19 @@ hr {
   border-radius: 10px!important;
 }
 
+/* Propiedades definidas sobre la imagen del card en la seccion de noticias */
 .card-img-top{
   width: 90%!important;
 }
 
+/* Propiedades definidas sobre el texto de las noticias */
 .card .card-body .card-text{
-  color: black!important;
-  padding-top: 1em;
+  	color: black!important;
+  	padding-top: 1em;
 	height: 11em;
 }
 
+/* Propiedades definidas cuando se pasa el mouse sobre un card */
 .card:hover{
 	-ms-transform: scale(1.2); /* IE 9 */
 	-webkit-transform: scale(1.2); /* Safari 3-8 */
@@ -133,137 +144,210 @@ hr {
 	z-index: 1;
 }
 
+/* Propiedades definidas sobre las noticias que no se ven */
 .hidden-news{
-  margin: 0;
-  padding: 0!important;
-  height: auto;
+  	margin: 0;
+  	padding: 0!important;
+  	height: auto;
 }
+
+/* Propiedades definidas sobre los botones */
 .btn{
-  background-color: white!important;
+  	background-color: white!important;
 	border-color: black !important;
 	border: solid!important;
-  color: black!important;
+  	color: black!important;
 }
-/*contenedor de 100vh*/
+
+/* Propiedades definidas sobre el contenedor de 100vh */
 .container-100vh{
 	text-align: center;
 	height: 100vh;
 }
-/*Imagen juego */
+
+/* Propiedades definidas sobre las imagenes de los juegos */
 .game{
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  opacity: 0.65;
-  }
-	/*Texto de imagen*/
-	.game-text{
-	  color: #fff;
-	  border-radius: 10px;
-	  text-align: center;
-		background: rgba(0, 0, 0, 0.85);
-	}
-	/*Menu Esports*/
-	.nav-link{
-		color: black;
-	}
-	.esports .nav .active{
-		color: black!important;
-		background-color: rgb(255, 255, 255)!important;
-		border-color: black black white black!important;
-	}
-	#Tab-Esports{
-		justify-content: center;
-		border-bottom: 1px solid;
-	}
-	/*Secciones Esports*/
-	.carousel-Noticias-esports{
-		height: 13em!important;
-	}
-	.section-esports{
-	  color: black;
-		margin-bottom: 1.5%;
-		font-size: 3em;
-		padding-top: 2%;
-	}
-	.trailer{
-		border: 5px black solid;
-		padding: 1px!important;
-		border-radius: 10px;
-	}
-	.img-esports{
-		height: 29em;
-		border: 4px black solid;
-		padding: 0px!important;
-		border-radius: 10px;
-		opacity: 0.9;
-	}
-	.container-imgGame{
-  position: relative;
-  text-align: center;
-  color: white;
-	}
-	.centered-text {
+  	width: 100%;
+  	height: 100%;
+  	background-size: cover;
+ 	opacity: 0.65;
+}
+
+/* Propiedades definidas sobre el texto de imagen del juego*/
+.game-text{
+	color: #fff;
+	border-radius: 10px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.85);
+}
+
+/* Propiedades definidas sobre el Menu Esports*/
+.nav-link{
+	color: black;
+}
+
+/* Propiedades definidas sobre la opcion seleccionada del menu esports */
+.esports .nav .active{
+	color: black!important;
+	background-color: rgb(255, 255, 255)!important;
+	border-color: black black white black!important;
+}
+
+/* Propiedades definidas sobre las opciones del menu esports */
+#Tab-Esports{
+	justify-content: center;
+	border-bottom: 1px solid;
+}
+
+/* Propiedades definidas sobre el carrusel de noticias de Esports*/
+.carousel-Noticias-esports{
+	height: 13em!important;
+}
+
+/* Propiedades definidas sobre la seccion de esports */
+.section-esports{
+	color: black;
+	margin-bottom: 1.5%;
+	font-size: 3em;
+	padding-top: 2%;
+}
+
+/* Propiedades definidas sobre el trailer de la seccion esports */
+.trailer{
+	border: 5px black solid;
+	padding: 1px!important;
+	border-radius: 10px;
+}
+
+/* Propiedades definidas sobre la imagen de esports */
+.img-esports{
+	height: 29em;
+	border: 4px black solid;
+	padding: 0px!important;
+	border-radius: 10px;
+	opacity: 0.9;
+}
+
+/* Propiedades definidas sobre el contenedor de la imagen del juego esports */
+.container-imgGame{
+  	position: relative;
+  	text-align: center;
+  	color: white;
+}
+
+/* Propiedades definidas sobre el texto de la imagen de la seccion esports */
+.centered-text {
 	color: white;
-  position: absolute;
-  top: 75%;
-  left: 50%;
+  	position: absolute;
+  	top: 75%;
+  	left: 50%;
 	width: 90%;
 	background: rgba(0, 0, 0, 0.8);
-  transform: translate(-50%, -50%);
-	}
-	.carousel-esports .control{
-		background-color: black;
-		height: 20%;
-		top: 25%;
-		width: 5%;
-	}
-	.img-fluid{
-		border-radius: 10px;
-		border: solid;
-	}
-	.img-fluid:hover{
-		opacity: 0.5;
-	}
-	.text-new-esports{
-		font-size: 80%;
-		padding-right: 2px;
-	}
-@media screen and (max-device-width: 980px)
- {
+  	transform: translate(-50%, -50%);
+}
+
+/* Propiedades definidas sobre los botones del carrusel de esports */
+.carousel-esports .control{
+	background-color: black;
+	height: 20%;
+	top: 25%;
+	width: 5%;
+}
+
+/* Propiedades definidas sobre cada slide del carrusel de esports */
+.img-fluid{
+	border-radius: 10px;
+	border: solid;
+}
+
+/* Propiedades definidas sobre cada slide del carrusel de esports cuando se pasa mouse sobre el */
+.img-fluid:hover{
+	opacity: 0.5;
+}
+
+/* Propiedades definidas sobre el texto que se muestra en el carrusel de esports */
+.text-new-esports{
+	font-size: 80%;
+	padding-right: 2px;
+}
+
+/* Propiedades definidas sobre parrafo de redes sociales para que no se vea */
+.redSocial {
+	display: none;
+}
+
+/* Propiedades definidas sobre parrafo de noticias para que no se vea */
+.parrafoNoticias {
+	display: none;
+}
+
+/* Propiedades definidas sobre parrafo de carrusel minijuegos */
+.parrafoMinijuegos {
+	display: none;
+}
+
+/* Propiedades definidas sobre parrafo de carrusel esports */
+.parrafoEsports {
+	display: none;
+}
+
+/* Media query cuando la pantalla supera cierto tamaño de pixeles */
+@media screen and (max-device-width: 980px){
+	/* Propiedades definidas sobre la imagen de fondo del inicio */
 	.background img{
 		width: 20%;
 		position:relative;
 	  padding-top: 30%;
 	}
+
+	/* Propiedades definidas sobre el menu */
 	.menu{
 		height: 9em!important;
 	}
-  .card-text{
-    font-size:  2.5em!important;
-  }
-	#container nav img{
-	  width:9em;
-		height: 8em;
-	  margin-right: 2%;
+
+	/* Propiedades definidas sobre los textos de los cards */
+  	.card-text{
+    	font-size:  2.5em!important;
 	}
+
+	/* Propiedades definidas sobre la imagen del menu */
+	#container nav img{
+	  	width:9em;
+		height: 8em;
+	  	margin-right: 2%;
+	}
+
+	/* Propiedades definidas sobre cada opcion del menu */
 	.nav-item{
 		font-size: 4em;
 	}
+
+	/* Propiedades definidas sobre el boton cuando colapsa el menu */
 	.navbar-toggler{
 		width: 15%;
 		height: 100%;
 	}
+
+	/* Propiedades definidas sobre la seccion de noticias */
 	.section-news{
 		font-size: 5em;
 	}
+
+	/* Propiedades definidas sobre los botones de la pagina */
 	.btn{
 		font-size: 3em!important;
 		width: 40%;
 	}
+
+	/* Propiedades definidas sobre el boton ver mas de la pagina */
 	.ver-mas{
 		border: solid;
 		width: 100%;
 		font-size: 3em!important;
 	}
+}
+.page-footer{
+	margin-top: 15%!important;
+
+		background-color: rgb(77, 77, 77);
 }
